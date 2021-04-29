@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Justin K Lee Web-Development</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="homePage1/style1.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="about">
+                    <button type="button">what I do</button>
+                </li>
+                <li class="travel">
+                    <button>travel log</button>
+                </li>
+                <li class="game">
+                    <button>have fun</button>
+                </li>
+
+                <div class="plane-container">
+                    <svg class="plane" width="148.67" height="171.33" viewBox="0 0 223 257" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 164L191 3L220.5 210L133 194.5L124 252L80.5 182.5L4 164Z" fill="white" />
+                        <path
+                            d="M191 3L4 164L80.5 182.5M191 3L220.5 210L133 194.5M191 3L116.5 191.5M191 3L80.5 182.5M116.5 191.5L124 252M116.5 191.5L133 194.5M80.5 182.5L124 252M124 252L133 194.5"
+                            stroke="black" stroke-width="3" />
+                    </svg>
+                    <div class="sidePlane-container">
+                        <svg class="sidePlane" width="402" height="241" viewBox="0 0 402 241" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M316.09 40.0116L320 51.2534V68.2484L112.671 105.984L309.648 22.9867L316.09 40.0116Z"
+                                fill="white" stroke="black" stroke-width="3" />
+                            <path d="M100.845 108.471L338.146 64.6829L363.571 117.416L100.845 108.471Z" fill="white"
+                                stroke="black" stroke-width="3" />
+                            <path d="M142.671 110.178L323.5 115.143V137.259L142.671 110.178Z" fill="white"
+                                stroke="black" stroke-width="3" />
+                            <path d="M320 51.5L100.5 108.5" stroke="black" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <section class="scene" id="scene" data-relative-input="true">
+                    <div id="stars" data-depth=".3"></div>
+                    <div id="stars2" data-depth=".7"></div>
+                    <div id="stars3" data-depth="1.3"></div>
+                    <div id="title" data-dept="1">
+                        <span>Next Mission: internet connected with Other Planets</span>
+                        <br>
+                        <span></span>
+                    </div>
+                </section>
+            </ul>
+        </nav>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
+        <script>
+            let scene = document.getElementById("scene");
+            let parallax = new Parallax(scene);
+        </script>
+        
+    </header>
+    <main>
+        <article class="about-container" id="about">
+            <div>
+                <p class="img1"><span>synergy</span></p>
+            </div>
+            <section class="who">
+                <h1> It's All About Internet and People </h1>
+                <p>I love creating things, especially web apps! I love enginerring creativity and challenges</p>
+            </section>
+            <div>
+                <p class="img2"><span>engineering</span></p>
+            </div>
+            <section class="justin">
+                <h1>Justin K Lee </h1>
+                <p>I love creating things, professionaly website! I love learning new technology everytime.</p>
+            </section>
+            <div>
+                <p class="img3"><span>technology</span></p>
+            </div> 
+            <section class="engineer" id="engineering">
+                <h1>Web Development Engineering</h1>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Ruby On Rails</li>
+                    <li>SQL</li>
+                    <li>Node.js</li>
+                    <li>Git</li>
+                    <li></li>
+                </ul>
+            </section> 
+            <div>
+                <p class="img4"><span>walking freely</span></p>
+            </div>
+        </article>
+
+        <article class="game-container" id="game">
+            <section class="fun">
+                Love Game
+            </section>
+            Love Game
+        </article>
+
+        <article>
+            <section>!contact me!</section>
+        </article>
+        
+        <article class="travel-container" id="travel">
+            <div class="photo-intro">
+                <h1>What I love to do besides web-engineering</h1>
+                <h1>:backpacking around the world</h1>
+                </div>      
+                <div class="outer-wrapper">
+                    <div class="wrapper">
+                        <section class="photo one"></section>
+                        <section class="photo two"></section>
+                        <section class="photo three"></section>
+                        <section class="photo four"></section>
+                        <section class="photo five"></section>
+                        <div class="more">
+                            <span>Want more of my travle photos? please click the button</span>
+                            <button type="button">
+                                button
+                            </button>
+                        </div>
+                        
+                    </div>
+            </div>
+        </article>
+    </main>
+    <script src="/homepage1/index.js"></script>
+</body>
+
+</html>                                     
